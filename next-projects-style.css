@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.gif img {
+    height: 50px; 
+    margin-right: 5px; 
+}
+
+.logo img {
+    height: 50px; 
+    width: auto; 
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease; 
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #ae0000;
+    transform: scale(2.1); 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: center;  
+    padding: 20px;
+    background-color: #f9f9f9;
+    justify-content: center;  
+    gap: 20px;  
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 400px; 
+}
+
+.carousel-image {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.info-display {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    text-align: left; 
+    margin: 0 auto; 
+}
+
+.info-display img {
+    max-width: 300px; 
+    width: 100%;
+    margin-top: 0; 
+    border-radius: 10px;
+}
+
+#info-text {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; 
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; 
+}
+
+.social-icon:hover {
+    background-color: #ff0000; 
+    color: white;
+}
+
+body h1, h2, p, ul, li {
+    text-align: center;
+}
+
+.scratch-icon img {
+    width: 60%; 
+    height: 60%;
+    object-fit: contain;
+    object-position: center;
+    margin-top: 2px; 
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; 
+    background-color: white;
+}
+
+.scratch-icon img:hover {
+    background-color: #ff0000;
+    
+}
+
+.discord-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; 
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; 
+}
+
+.discord-icon:hover {
+    background-color: #ff0000;
+}
+
+.discord-icon:hover::after {
+    content: attr(data-username);
+}
+
+.discord-icon::after {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.discord-server-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; 
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.discord-server-icon:hover {
+    background-color: #ff0000;
+}
+
+#appearances-list {
+    list-style-type: circle;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#appearances-list li {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #fff; 
+}
+
+.banner {
+    position: relative; 
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden; 
+}
+
+.banner img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1; 
+    pointer-events: none;
+}

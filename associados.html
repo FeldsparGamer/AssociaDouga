@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssociaDouga</title>
+    <link rel="stylesheet" href="associados-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../dumbdog.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="gif">
+                <img src="Girl.gif" alt="Gif da personagem">
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo do site">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="artes.html">Artes</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="associados.html">Associados</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <h1>Associados</h1>
+    <p>Veja quem são os membros deste grupo</p>
+    <div class="container">
+        <div class="buttons-container">
+            <div class="arrow" onclick="slideCarousel(-1)">&#9664;</div>
+            <div class="carousel" id="carousel">
+                <img src="AssociaIcons/Sonnic.png" class="carousel-image" alt="Imagem 1" onclick="updateInfo('Sonnic', 'O criador dos Associados, é conhecido por ter criado Fogo Amigo, Super Scratchers Bros e outras coisas', 'AssociaIcons/Sonnic.png'); updateSocialLinks('Sonnic')" />
+                <img src="AssociaIcons/Adriel.png" class="carousel-image" alt="Imagem 2" onclick="updateInfo('Adriel', 'O segundo membro do grupo, é famoso por modelar trens paulistas e está trabalhando no Jogo do Tinhoso', 'AssociaIcons/Adriel.png'); updateSocialLinks('Adriel')" />
+                <img src="AssociaIcons/JMTC.png" class="carousel-image" alt="Imagem 3" onclick="updateInfo('JohnmakerX', 'Ele é o terceiro membro do grupo, é conhecido por suas sprite animations e animações de memes', 'AssociaIcons/JMTC.png'); updateSocialLinks('JohnmakerX')" />
+                <img src="AssociaIcons/Edamaku.png" class="carousel-image" alt="Imagem 4" onclick="updateInfo('Edamaku', 'Quarto membro do grupo, fez o RPG; O Fim, e está trabalhando no Revolution', 'AssociaIcons/Edamaku.png'); updateSocialLinks('Edamaku')" />
+                <img src="AssociaIcons/Mashed.png" class="carousel-image" alt="Imagem 5" onclick="updateInfo('Mashed', 'Quinto membro do grupo, conhecido pelo seu humor non-sense e projetos niponicos', 'AssociaIcons/Mashed.png'); updateSocialLinks('Mashed')" />
+                <img src="AssociaIcons/Miguelitopira.png" class="carousel-image" alt="Imagem 6" onclick="updateInfo('Miguelitopira', 'Um dos novos membros do grupo, faz artes e está trabalhando em jogos como o Super Scratching Blocks e o Codinome Scratchblocks ', 'AssociaIcons/Miguelitopira.png'); updateSocialLinks('Miguelitopira')" />
+                <img src="AssociaIcons/Liam.png" class="carousel-image" alt="Imagem 7" onclick="updateInfo('Liam', 'Outro membro novo é Liam, que é conhecido pela série Bot Planet do YouTube', 'AssociaIcons/Liam.png'); updateSocialLinks('Liam')" />
+                <img src="AssociaIcons/Bitzin.png" class="carousel-image" alt="Imagem 8" onclick="updateInfo('Bitzin', 'Grande amigo de Adriel, trabalha em HR e também no seu canal do YouTube', 'AssociaIcons/Bitzin.png'); updateSocialLinks('Bitzin')" />
+                <img src="AssociaIcons/Map.png" class="carousel-image" alt="Imagem 9" onclick="updateInfo('Map', 'Map é um músico que está trabalhando em um jogo de Heady', 'AssociaIcons/Map.png'); updateSocialLinks('Map')" />
+                <img src="AssociaIcons/Patrão.png" class="carousel-image" alt="Imagem 9" onclick="updateInfo('Patrão', 'Amigo do Map, é conhecido por seus desenhos zueiros', 'AssociaIcons/Patrão.png'); updateSocialLinks('Patrão')" />
+            </div>
+            <div class="arrow" onclick="slideCarousel(1)">&#9654;</div>
+        </div>
+
+        <div class="info-display">
+            <div>
+                <h2 id="info-title"></h2>
+                <p id="info-text"></p>
+                <div class="social-links">
+                    <a id="instagram-link" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a id="youtube-link" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a id="bluesky-link" class="social-icon"><i class="fa-brands fa-bluesky"></i></a> <!-- Para o Bluesky -->
+                    <a id="twitter-link" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a id="scratch-link" class="scratch-icon">
+                        <img src="icons8-arranhar(1).svg" alt="Scratch" style="width: 40px; height: 40px;">
+                    </a> <!-- Para o Scratch -->
+                    <a id="reddit-link" class="social-icon"><i class="fab fa-reddit"></i></a>
+                    <a id="subreddit-link" class="social-icon"><i class="fab fa-reddit"></i></a>
+                    <a id="discord-link" class="discord-icon" title="sonnic1998"><i class="fab fa-discord"></i></a>
+                    <a id="server-link" class="server-icon"><i class="fab fa-discord"></i></a>
+                </div> 
+            </div>
+            <img id="info-image" src="foto.jpg" alt="Foto" />           
+        </div>
+    </div>
+    <script src="associados.js"></script>
+</body>
+</html>

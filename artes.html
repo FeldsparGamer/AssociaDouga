@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssociaDouga</title>
+    <link rel="stylesheet" href="artes.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="gif">
+                <img src="Girl.gif" alt="Gif da personagem">
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo do site">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="artes.html">Artes</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="associados.html">Associados</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <h1>Artes</h1>
+    <p>Veja as artes dos Associados</p>
+    <div class="carousel">
+        <button id="prev" class="nav-button">&#9664;</button>
+        <div class="art-container">
+          <div class="art small" id="left-art"></div>
+          <div class="art large" id="center-art"></div>
+          <div class="art small" id="right-art"></div>
+        </div>
+        <button id="next" class="nav-button">&#9654;</button>
+      </div>     
+      <script src="artes.js"></script>
+</body>
+</html>

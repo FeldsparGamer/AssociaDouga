@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssociaDouga</title>
+    <link rel="stylesheet" href="characters-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="dumbdog.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="gif">
+                <img src="Girl.gif" alt="Gif da personagem">
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo do site">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="artes.html">Artes</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="associados.html">Associados</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <h1>Personagens</h1>
+    <p>Veja os personagens criados pelos Associados</p>
+    <div class="container">
+        <div class="buttons-container">
+            <div class="arrow" onclick="slideCarousel(-1)">&#9664;</div>
+            <div class="carousel" id="carousel">
+                <img src="Personagens/Sonnic.png" class="carousel-image" alt="Persona 1" onclick="updateInfo('Sonnic', 'É um ouriço que gosta de ir em aventuras com Fogo Amigo', 'Personagens-Renders/Sonnic-Render.png')" />
+                <img src="Personagens/JMTC.png" class="carousel-image" alt="Persona 2" onclick="updateInfo('Johnmaker the Cat', 'Um gato com grandes habilidades na espada e um grande nerd', 'Personagens-Renders/John-Render2.png')" />
+                <img src="Personagens/SPEEDY.png" class="carousel-image" alt="Persona 3" onclick="updateInfo('Speedy', 'O ouriço mais amado do Scratch, ultrapassa até a velocidade do som', 'Personagens-Renders/Speedy-Render.png')" />
+                <img src="AssociaIcons/Edamaku.png" class="carousel-image" alt="Persona 4" onclick="updateInfo('Edamaku', 'Quarto membro do grupo, fez o RPG; O Fim, e está trabalhando no Revolution', 'AssociaIcons/Edamaku.png')" />
+                <img src="Personagens/Mashed.png" class="carousel-image" alt="Persona 5" onclick="updateInfo('Mashed', 'Um yukkuri que gosta de humor japonês', 'Personagens-Renders/Mashed-Render.png')" />
+                <img src="Personagens/Miguelitopira.png" class="carousel-image" alt="Persona 6" onclick="updateInfo('Miguelitopira', 'Miguelito é um yoshi cheio de coragem e que gosta de aventuras', 'Personagens-Renders/Miguelito-Render.png')" />
+                <img src="Personagens/LIAM.png" class="carousel-image" alt="Persona 7" onclick="updateInfo('Liam', 'Um grande mestre das chamas, usa seu taco para fazer home-runs flamejantes', 'Personagens-Renders/Liam-Render.png')" />
+                <img src="AssociaIcons/Bitzin.png" class="carousel-image" alt="Persona 8" onclick="updateInfo('Bitzin', 'Grande amigo de Adriel, trabalha em HR e também no seu canal do YouTube', 'AssociaIcons/Bitzin.png')" />
+                <img src="Personagens/Map.png" class="carousel-image" alt="Persona 9" onclick="updateInfo('Map the PC', 'Ele é um computador que gosta de uma boa música como a de Plok', 'Personagens-Renders/Map-Render.png')" />
+                <img src="Personagens/HEADY.png" class="carousel-image" alt="Persona 28" onclick="updateInfo('Heady', 'Heady é o protagonista do futuro jogo de mesmo nome!', 'Personagens-Renders/Heady-Render.png')" />
+                <img src="Personagens/FOGO AMIGO.png" class="carousel-image" alt="Persona 10" onclick="updateInfo('Fogo Amigo', 'O fogaréu mais amado do Scratch, sempre no estilo', 'Personagens-Renders/Fogo-Render.png')" />
+                <img src="Personagens/SOFT(2).png" class="carousel-image" alt="Persona 11" onclick="updateInfo('Soft', 'Um lobo que sabe usar muito bem seus poderes cibernéticos como Firewall e outros', 'Personagens-Renders/Soft-Render.png')" />
+                <img src="Personagens/DELT.png" class="carousel-image" alt="Persona 12" onclick="updateInfo('Delt', 'Ela é uma macaca bem forte, conseguindo carregar grandes pesos', 'Personagens-Renders/Delt-Render.png')" />
+                <img src="Personagens/HELI.png" class="carousel-image" alt="Persona 13" onclick="updateInfo('Heli', 'Uma raposa muito fofa que possuí poderes elásticos e pode virar um balão', 'Personagens-Renders/Heli-Render.png')" />
+                <img src="Personagens/JOSEPH.png" class="carousel-image" alt="Persona 14" onclick="updateInfo('Joseph', 'Joseph é um yoshi justiceiro que rivaliza com Miguelitopira', 'Personagens-Renders/Joseph-Render.png')" />
+                <img src="Personagens/JULIA.png" class="carousel-image" alt="Persona 15" onclick="updateInfo('Julia', 'A melhor amiga de Miguelitopira, adora se aventurar com ele', 'Personagens-Renders/Julia-Render.png')" />
+                <img src="Personagens/JOVEM RAPAZ.png" class="carousel-image" alt="Persona 16" onclick="updateInfo('Jovem Rapaz', 'O protagonista de HR, a série mais duradoura do Scratch!', 'Personagens-Renders/JovemRapaz-Render.png')" />
+                <img src="Personagens/MADNESS ADRIEL.png" class="carousel-image" alt="Persona 17" onclick="updateInfo('Madness Adriel', 'Um dos pistoleiros mais zueiros do Scratch, gosta de zuar junto de Acer', 'Personagens-Renders/Madness-Render.png')" />
+                <img src="Personagens/ACER.png" class="carousel-image" alt="Persona 18" onclick="updateInfo('Acer', 'Uma ciborgue cheia de graça, especialmente com Madness', 'Personagens-Renders/Acer-Render.png')" />
+                <img src="Personagens/ENIAC.png" class="carousel-image" alt="Persona 19" onclick="updateInfo('Eniac', 'O protagonista de Bot Planet, é um bot heróico que é focado em seu objetivo', 'Personagens-Renders/Eniac-Render.png')" />
+                <img src="Personagens/MAX.png" class="carousel-image" alt="Persona 20" onclick="updateInfo('Max', 'Uma bot com ótimas habilidades com suas duas facas', 'Personagens-Renders/Max-Render.png')" />
+                <img src="Personagens/BETA.png" class="carousel-image" alt="Persona 21" onclick="updateInfo('Beta', 'O famoso bastardo de Bot Planet, gosta de tramar uma bela trollada especialmente em Mech', 'Personagens-Renders/Beta-Render.png')" />
+                <img src="Personagens/ALPHA.png" class="carousel-image" alt="Persona 22" onclick="updateInfo('Alpha', 'A irmã muda de Beta que é boa de porradaria', 'Personagens-Renders/Alpha-Render.png')" />
+                <img src="Personagens/MECH.png" class="carousel-image" alt="Persona 22" onclick="updateInfo('Mech', 'Conhecido como Perneta, é o único bot que usa rodas', 'Personagens-Renders/Mech-Render.png')" />
+                <img src="Personagens/TITAN SPEEDY.png" class="carousel-image" alt="Persona 23" onclick="updateInfo('Titan Speedy', 'A versão robótica de Speedy, sendo um oponente bem poderoso', 'Personagens-Renders/TitanSpeedy-Render.png')" />
+                <img src="Personagens/RIVAL.png" class="carousel-image" alt="Persona 24" onclick="updateInfo('Rival', 'Arqui-inimigo de John e companhia, gosta de tramar planos bem malígnos', 'Personagens-Renders/Rival-Render.png')" />
+                <img src="Personagens/COGUMAL.png" class="carousel-image" alt="Persona 25" onclick="updateInfo('Cogumal', 'O cogumelo mais malvado do mundo, anda junto com a Alexa, mesmo ela não sendo prestativa maior parte do tempo', 'Personagens-Renders/Cogumal-Render.png')" />
+                <img src="Personagens/CORRUPTIRA.png" class="carousel-image" alt="Persona 26" onclick="updateInfo('Corruptira', 'Um yoshi que quer corromper o mundo de Miguelitopira e amigos', 'Personagens-Renders/JovemRapaz-Render.png')" />
+                <img src="Personagens/DARK LIAM.png" class="carousel-image" alt="Persona 27" onclick="updateInfo('Dark Liam', 'Vindo das trevas, Dark Liam quer acabar com sua versão original', 'Personagens-Renders/DarkLiam-Render.png')" />
+            </div>
+            <div class="arrow" onclick="slideCarousel(1)">&#9654;</div>
+        </div>
+        <div class="info-display">
+            <div>
+                <h1 id="info-title">Título da Informação</h1>
+                <p id="info-text">Descrição sobre a informação selecionada.</p>
+            </div>
+            <img id="info-image" src="foto.jpg" alt="Foto" />           
+        </div>
+    </div>
+    <script src="characters.js"></script>
+</body>
+</html>

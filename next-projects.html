@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssociaDouga</title>
+    <link rel="stylesheet" href="next-projects-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="dumbdog.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="gif">
+                <img src="Girl.gif" alt="Gif da personagem">
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo do site">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="artes.html">Artes</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="associados.html">Associados</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <h1>Futuros Projetos</h1>
+    <p>Veja os lançamentos que estão sendo produzidos pelos <a href="associados.html">Associados</a></p>
+    <div class="banner">
+        <img id="banner-image" src="bannertemplate.png" alt="Banner">
+    </div>
+    <div class="container">
+        <div class="buttons-container">
+            <div class="arrow" onclick="slideCarousel(-1)">&#9664;</div>
+            <div class="carousel" id="carousel">
+                <img src="Projetos-Icons/SSBBX2.png" class="carousel-image" alt="Imagem 1" onclick="updateInfo('Super Scratching Bros Brawl', 'Um jogo de luta que tem seus scratchers favoritos!', 0, 0)" />
+                <img src="Projetos-Icons/Revolution.png" class="carousel-image" alt="Imagem 2" onclick="updateInfo('Projeto Revolution', 'O mais novo grande projeto da Excratch Team, não se sabe sobre o que é ainda', 1, 1)" />
+                <img src="Projetos-Icons/Gehenna.png" class="carousel-image" alt="Imagem 3" onclick="updateInfo('Jogo do Tinhoso', 'Outro grande projeto é o Jogo do Tinhoso, sendo feito por AdrielCrafter desde o final de 2023', 2, 2)" />
+                <img src="Projetos-Icons/PW.png" class="carousel-image" alt="Imagem 4" onclick="updateInfo('Pigeon World Remake', 'Um remake de um dos primeiros jogos de Sonnic, Pigeon World, mas agora em 3D e com novidades', 3, 3)" />
+                <img src="Projetos-Icons/Resistance.png" class="carousel-image" alt="Imagem 4" onclick="updateInfo('Resistance: A Série', 'Para comemorar o aniversário de 3 anos de Resistance, uma versão animada está em produção por Miguelitopira', 4, 4)" />
+                <img src="Projetos-Icons/TEMPLATE.png" class="carousel-image" alt="Imagem 5" onclick="updateInfo('Heady', 'Jogue uma aventura inspirada em Rayman e outros clássicos', 5, 5)"/>
+                <img src="Projetos-Icons/MTGIcon.png" class="carousel-image" alt="Imagem 4" onclick="updateInfo('Miguelitopira the Game', 'A aventura do Yoshi mais amado do Brasil, Miguelitopira', 6, 6)" />
+                <img src="Projetos-Icons/ARICON.png" class="carousel-image" alt="Imagem 4" onclick="updateInfo('Scratch Blocks', 'Um dos jogos mais ambiciosos dos Associados, sendo feito por todos eles', 7, 7)"/>
+                
+            </div>
+            <div class="arrow" onclick="slideCarousel(1)">&#9654;</div>
+        </div>
+
+        <div class="info-display">
+            <div>
+                <h1 id="info-title">Título da Informação</h1>
+                <p id="info-text">Descrição sobre a informação selecionada.</p>
+            </div>
+            <img id="info-image" src="foto.jpg" alt="Foto" />           
+        </div>
+    </div>
+    <script src="next-project.js"></script>
+</body>
+</html>

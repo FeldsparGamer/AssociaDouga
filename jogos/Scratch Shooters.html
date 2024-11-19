@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto do Scratch</title>
+    <link rel="stylesheet" href="game-page-style.css">
+    <link rel="shortcut icon" href="dumbdog.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="gif">
+                <img src="../Girl.gif" alt="Gif da personagem">
+            </div>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../logo.png" alt="Logo do site">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../videos.html">Vídeos</a></li>
+                <li><a href="../jogos.html">Jogos</a></li>
+                <li><a href="../artes.html">Artes</a></li>
+                <li><a href="../personagens.html">Personagens</a></li>
+                <li><a href="../associados.html">Associados</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <main class="content">
+        <div class="project-side">
+            <h1>Scratch Shooters</h1>
+            <div class="tags-container">
+                <span class="tag">Luta</span>
+                <span class="tag">Tiro</span>
+                <span id="tagInputContainer">
+                    <button id="addTagButton" class="tag">+</button>
+                </span>
+            </div>
+            <div class="project-container">
+                <iframe src="https://turbowarp.org/548057094/embed" width="1920" height="1080" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <div class="creator">
+                    <h2>Criador</h2>
+                    <p>AdrielCrafter</p>
+                </div>
+                <div class="release">
+                    <h2>Data de Lançamento</h2>
+                    <p>24/06/2021</p>
+                </div>
+                <div class="project-description">
+                    <p>Um jogo onde você pode matar seus inimigos usando... armas?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comment-section">
+            <h2>Comentários</h2>
+            <div class="comments">
+                <!-- Comentários anteriores podem ser exibidos aqui -->
+            </div>
+            <textarea id="comment-text" placeholder="Escreva seu comentário aqui..."></textarea>
+            <button id="submit-button">Enviar</button>
+        </div>
+    </main>
+    <script src="game.js"></script>
+    <script src="../DailyImage.js"></script>
+</body>
+</html>
