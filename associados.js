@@ -49,7 +49,7 @@ const socialLinks = {
         twitter: "https://x.com/Liam_Quezada",
         scratch: "https://scratch.mit.edu/users/LiamQuezada/",
         reddit: "https://www.reddit.com/user/LiamQuezada/",
-        subreddit: "https://www.reddit.com/r/LiamQuezada/s/tDolss3JNT",
+        subreddit: "https://www.reddit.com/r/LiamQuezada/?share_id=gqfphcS63OUM8rtqP5ST-&utm_content=1&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1",
         discord: "liamquezada",
         server: "https://discord.com/invite/GxqYmNjqfs"
     },
