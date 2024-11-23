@@ -11,6 +11,7 @@ const jogosImagensBanner = [
     "Projetos-Imagens/Resistance-Imagem.png",
     "Projetos-Imagens/bannertemplate.png",
     "Projetos-Imagens/MTG-Imagem.png",
+    "Projetos-Imagens/bannertemplate.png",
     "Projetos-Imagens/bannertemplate.png"
 ];
 
@@ -23,6 +24,7 @@ const jogosImagensInfo = [
     "Projetos-Logos/Heady_Logo.png",
     "Projetos-Logos/MTGLogo.png",
     "Projetos-Logos/PLACEHOLDER.png",
+    "Projetos-Logos/Bot_Planet_Logo_Letras.png"
 ];
 
 function slideCarousel(direction) {
