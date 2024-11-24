@@ -67,7 +67,8 @@ const socialLinks = {
     Patrão: {
         scratch: "https://scratch.mit.edu/users/patrao_ne_pai/",
         discord: "ranirru",
-        server: "https://discord.gg/Rdt5zYuz"
+        server: "https://discord.gg/Rdt5zYuz",
+        twitter: "https://x.com/ranirru"
     }
     // Adicione outros personagens aqui
 };
