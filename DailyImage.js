@@ -41,7 +41,8 @@ const dailyQuote = [
     "teu rabo",
     "Maldições são igual a violino, viro a cara e passo a vara",
     "boca fala doque o coração ta cheio :donkey_cock:",
-    "Foi de Nagasaki"
+    "Foi de Nagasaki",
+    "eu me arrependo de ter falado PintoNET kkkkkkkkkkkkk"
 ]
 
 // quem disse isso?
@@ -54,7 +55,8 @@ const dailyQuoteAuthors = [
     "Mashed",
     "Okksttu Yuta",
     "JohnmakerX",
-    "Alan"
+    "Alan",
+    "Miguelitopira"
 ]
 
 function setDailyImage() {
