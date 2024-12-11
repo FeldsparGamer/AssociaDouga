@@ -21,13 +21,13 @@ const arts = [
     { title: "Família Românica", artist: "JohnmakerX", img: "artes/Arte17.png"},
     { title: "Arte de Halloween 2024", artist: "Liam Quezada", img: "artes/Arte20.png" },
     { title: "John e seus ídolos", artist: "JohnmakerX", img: "artes/Arte12.png"},
-    { title: "Halloween de Bot Planet", artist: "Liam Quezada", img: "artes/Arte26.png" },
+    { title: "Halloween de Bot Planet", artist: "Liam Quezada", img: "artes/Arte26.png"},
     { title: "Estação Mogi das Cruzes", artist: "AdrielCrafter", img: "artes/Arte16.png"},
-    { title: "Liam Quezada", artist: "Liam Quezada", img: "artes/Arte23.png" },
+    { title: "Liam Quezada", artist: "Liam Quezada", img: "artes/Arte23.png"},
     { title: "Fogo Amigo", artist: "Sonnic1998", img: "artes/Arte18.png"},
-    { title: "Liam Vampiro", artist: "Liam Quezada", img: "artes/Arte27.png" },
-    { title: "Miguel the Lombax", artist "Bitzin", img: "artes/Arte29.png" },
-    { title: "Vale Montanhoso", artist: "Liam Quezada", img: "artes/Arte30.png" },
+    { title: "Liam Vampiro", artist: "Liam Quezada", img: "artes/Arte27.png"},
+    { title: "Miguel the Lombax", artist "Bitzin", img: "artes/Arte29.png"},
+    { title: "Vale Montanhoso", artist: "Liam Quezada", img: "artes/Arte30.png"}
     
   ];
   
