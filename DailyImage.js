@@ -7,6 +7,7 @@ const dailyImages = [
     "imagens do dia/Day5.webp",
     "imagens do dia/Day6.png",
     "imagens do dia/Day7.png",
+    "imagens do dia/Day8.png",
 ];
 
 // nomes das imagens merda
@@ -18,6 +19,7 @@ const dailyNames = [
     "Frango",
     "Luffinho",
     "Bruxinha",
+    "Mina Misasa",
 ]
 
 // nome de quem manda nessa porra, quer dizer as imagens
@@ -29,6 +31,7 @@ const dailyAuthor = [
     "Miguelitopira",
     "Edamaku",
     "Mashed",
+    "Bitzin",
 ]
 
 // dizia Sócrates..
@@ -42,7 +45,8 @@ const dailyQuote = [
     "Maldições são igual a violino, viro a cara e passo a vara",
     "boca fala doque o coração ta cheio :donkey_cock:",
     "Foi de Nagasaki",
-    "eu me arrependo de ter falado PintoNET kkkkkkkkkkkkk"
+    "eu me arrependo de ter falado PintoNET kkkkkkkkkkkkk",
+    "Não reclame da pessoa antes de conhecê-lâ. Ou melhor, não julgue-a antes de saber quem ela é.",
 ]
 
 // quem disse isso?
@@ -56,7 +60,8 @@ const dailyQuoteAuthors = [
     "Okksttu Yuta",
     "JohnmakerX",
     "Alan",
-    "Miguelitopira"
+    "Miguelitopira",
+    "Bitzin"
 ]
 
 function setDailyImage() {
