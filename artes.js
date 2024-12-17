@@ -26,7 +26,7 @@ const arts = [
     { title: "Liam Quezada", artist: "Liam Quezada", img: "artes/Arte23.png" },
     { title: "Fogo Amigo", artist: "Sonnic1998", img: "artes/Arte18.png" },
     { title: "Liam Vampiro", artist: "Liam Quezada", img: "artes/Arte27.png" },
-    { title: "Miguel the Lombax", artist "Bitzin", img: "artes/Arte29.png" },
+    { title: "Miguel the Lombax", artist: "Bitzin", img: "artes/Arte29.png" },
     { title: "Vale Montanhoso", artist: "Liam Quezada", img: "artes/Arte30.png" },
     
   ];
