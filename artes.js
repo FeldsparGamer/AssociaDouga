@@ -1,6 +1,6 @@
 const arts = [
     { title: "Natal de Bot Planet", artist: "Liam Quezada", img: "artes/Arte32.png" },
-    { title: "Natal 2024", artist: "Liam Quezada", img: "artes/Arte31.png" },
+    { title: "Natal 2024", artist: "Liam Quezada", img: "artes/Arte31.webp" },
     { title: "Team Delta", artist: "JohnmakerX", img: "artes/Arte1.png" },
     { title: "Eniac", artist: "Liam Quezada", img: "artes/Arte2.png" },
     { title: "Max", artist: "Liam Quezada", img: "artes/Arte21.png" },
